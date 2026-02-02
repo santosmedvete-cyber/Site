@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AGRO-PASTO | Consultoria Agrícola Inteligente</title>
+    <meta name="description"
+        content="Consultoria agrícola com Inteligência Artificial para análise de solo, manejo de pastagens e culturas. Especialistas em Capim Tifton, BRS Açu e Milho.">
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#16a34a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AGRO-PASTO">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="AGRO-PASTO">
+    <meta name="msapplication-TileColor" content="#16a34a">
+
+    <!-- PWA Manifest & Icons -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/icon-512.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/icon-512.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🌱</span>
+                <span class="logo-text">AGRO-PASTO</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#culturas">Culturas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="https://t.me/agropasto_bot" class="btn btn-primary" target="_blank">
+                <span>💬</span> Começar Agora
+            </a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🤖</span> Powered by AI
+                </div>
+                <h1>Consultoria Agrícola <span class="highlight">Inteligente</span></h1>
+                <p class="hero-subtitle">
+                    Análise de solo, manejo de pastagens e controle de pragas com
+                    <strong>Inteligência Artificial</strong>. Respostas precisas em segundos,
+                    direto no seu Telegram.
+                </p>
+                <div class="hero-cta">
+                    <a href="https://t.me/agropasto_bot" class="btn btn-primary btn-lg" target="_blank">
+                        <span>📱</span> Falar com o Consultor
+                    </a>
+                    <a href="#como-funciona" class="btn btn-outline btn-lg">
+                        <span>▶️</span> Ver Como Funciona
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Disponível</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">&lt;30s</span>
+                        <span class="stat-label">Resposta</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Culturas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="chat-demo">
+                            <div class="chat-message user">
+                                <p>📄 Enviei minha análise de solo</p>
+                            </div>
+                            <div class="chat-message bot">
+                                <p>📊 <strong>RESUMO:</strong> Solo muito fértil!</p>
+                                <p>✅ pH 6.2 - Ideal para pastagem</p>
+                                <p>✅ V% 72% - Saturação adequada</p>
+                                <p>💡 Recomendação: Manter adubação de cobertura</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
+                    fill="currentColor" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nossos Serviços</span>
+                <h2>Soluções Completas para o <span class="highlight">Agronegócio</span></h2>
+                <p>Tudo que você precisa para otimizar sua produção agrícola</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🧪</div>
+                    <h3>Análise de Solo</h3>
+                    <p>Interpretação completa de laudos de solo com recomendações de calagem e adubação personalizadas.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Interpretação de pH, P, K, Ca, Mg</li>
+                        <li>✓ Cálculo de calagem</li>
+                        <li>✓ Recomendações de NPK</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Mais Popular</div>
+                    <div class="service-icon">🌿</div>
+                    <h3>Manejo de Pastagem</h3>
+                    <p>Orientações para formação, recuperação e manejo de pastagens de alta produtividade.</p>
+                    <ul class="service-features">
+                        <li>✓ Taxa de lotação ideal</li>
+                        <li>✓ Período de descanso</li>
+                        <li>✓ Adubação de cobertura</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐛</div>
+                    <h3>Controle de Pragas</h3>
+                    <p>Identificação de pragas e doenças por foto com recomendações de controle integrado.</p>
+                    <ul class="service-features">
+                        <li>✓ Identificação por imagem</li>
+                        <li>✓ Nível de infestação</li>
+                        <li>✓ Métodos de controle</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌾</div>
+                    <h3>Cultura de Milho</h3>
+                    <p>Suporte completo para produção de milho para grãos ou silagem com máxima produtividade.</p>
+                    <ul class="service-features">
+                        <li>✓ Época de plantio</li>
+                        <li>✓ Adubação de plantio e cobertura</li>
+                        <li>✓ Ponto de silagem</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Simples e Rápido</span>
+                <h2>Como <span class="highlight">Funciona</span></h2>
+                <p>Em apenas 3 passos você tem acesso a consultoria agrícola de qualidade</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Acesse o Bot</h3>
+                        <p>Abra o Telegram e inicie uma conversa com nosso consultor virtual @agropasto_bot</p>
+                    </div>
+                    <div class="step-icon">📱</div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Envie sua Dúvida</h3>
+                        <p>Mande foto, PDF de análise de solo ou descreva seu problema em texto</p>
+                    </div>
+                    <div class="step-icon">📤</div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Receba a Resposta</h3>
+                        <p>Em segundos, receba análise completa com recomendações práticas para sua lavoura</p>
+                    </div>
+                    <div class="step-icon">✨</div>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="https://t.me/agropasto_bot" class="btn btn-primary btn-lg" target="_blank">
+                    Experimentar Agora - É Grátis!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultures Section -->
+    <section id="culturas" class="cultures">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Especialidades</span>
+                <h2>Culturas <span class="highlight">Atendidas</span></h2>
+                <p>Conhecimento especializado para as principais culturas da pecuária brasileira</p>
+            </div>
+            <div class="cultures-grid">
+                <div class="culture-card">
+                    <div class="culture-carousel" data-culture="tifton">
+                        <div class="carousel-images">
+                            <img src="images/tifton_1_1769994515084.png" alt="Capim Tifton pastagem" class="active">
+                            <img src="images/tifton_2_1769994579191.png" alt="Capim Tifton detalhe">
+                            <img src="images/tifton_3_1769994594578.png" alt="Capim Tifton vista aérea">
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                        <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                        <div class="carousel-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="culture-content">
+                        <h3>Capim Tifton</h3>
+                        <p>O queridinho da pecuária leiteira. Alta qualidade nutricional e excelente resposta à
+                            adubação.</p>
+                        <div class="culture-specs">
+                            <div class="spec">
+                                <span class="spec-label">pH Ideal</span>
+                                <span class="spec-value">5.5 - 6.5</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">V% Ideal</span>
+                                <span class="spec-value">50 - 70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-carousel" data-culture="brs-acu">
+                        <div class="carousel-images">
+                            <img src="images/brs_acu_1_1769994532818.png" alt="Capim BRS Açu campo" class="active">
+                            <img src="images/brs_acu_2_1769994608024.png" alt="Capim BRS Açu detalhe">
+                            <img src="images/brs_acu_3_1769994641760.png" alt="Capim BRS Açu alimentação">
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                        <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                        <div class="carousel-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="culture-content">
+                        <h3>Capim BRS Açu</h3>
+                        <p>Alta produtividade de massa verde. Ideal para corte, feno e sistemas intensivos de produção.
+                        </p>
+                        <div class="culture-specs">
+                            <div class="spec">
+                                <span class="spec-label">pH Ideal</span>
+                                <span class="spec-value">5.5 - 6.5</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">V% Ideal</span>
+                                <span class="spec-value">50 - 70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-carousel" data-culture="milho">
+                        <div class="carousel-images">
+                            <img src="images/milho_1_1769994547760.png" alt="Plantação de Milho" class="active">
+                            <img src="images/milho_2_1769994655208.png" alt="Espiga de Milho">
+                            <img src="images/milho_3_1769994668875.png" alt="Colheita de Silagem">
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                        <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                        <div class="carousel-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="culture-content">
+                        <h3>Milho</h3>
+                        <p>Grãos e silagem de alta qualidade. Suporte do plantio à colheita para máxima rentabilidade.
+                        </p>
+                        <div class="culture-specs">
+                            <div class="spec">
+                                <span class="spec-label">pH Ideal</span>
+                                <span class="spec-value">5.5 - 6.5</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">V% Ideal</span>
+                                <span class="spec-value">60 - 80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Depoimentos</span>
+                <h2>O que Dizem os <span class="highlight">Produtores</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Mandei a foto da análise de solo e em 30 segundos tinha todas as recomendações. Economizei
+                            tempo e dinheiro com consultoria!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍🌾</div>
+                        <div class="author-info">
+                            <strong>Carlos Mendes</strong>
+                            <span>Produtor de Leite - MG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"A IA identificou a praga que estava atacando meu pasto pelo simples envio de uma foto.
+                            Impressionante!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍🌾</div>
+                        <div class="author-info">
+                            <strong>Maria Aparecida</strong>
+                            <span>Pecuarista - GO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Uso direto do Telegram, sem precisar baixar app. As recomendações para meu Tifton são sempre
+                            certeiras."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍🌾</div>
+                        <div class="author-info">
+                            <strong>João Paulo</strong>
+                            <span>Produtor Rural - SP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contato" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para Otimizar sua <span class="highlight">Produção</span>?</h2>
+                <p>Comece agora mesmo gratuitamente. Sem cadastro, sem complicação.</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/agropasto_bot" class="btn btn-white btn-lg" target="_blank">
+                        <span>💬</span> Abrir no Telegram
+                    </a>
+                    <a href="https://wa.me/5587981797838?text=Olá! Gostaria de consultoria agrícola."
+                        class="btn btn-outline btn-lg" style="border-color: rgba(255,255,255,0.3); color: white;"
+                        target="_blank">
+                        <span>📱</span> WhatsApp
+                    </a>
+                </div>
+                <div class="cta-features">
+                    <span>✓ 100% Gratuito</span>
+                    <span>✓ Sem Cadastro</span>
+                    <span>✓ Resposta Imediata</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">🌱</span>
+                        <span class="logo-text">AGRO-PASTO</span>
+                    </a>
+                    <p>Consultoria agrícola inteligente com IA para produtores rurais.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#culturas">Culturas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="https://wa.me/5587981797838" target="_blank">📱 WhatsApp: (87) 98179-7838</a></li>
+                        <li><a href="https://t.me/agropasto_bot" target="_blank">💬 Telegram Bot</a></li>
+                        <li><a href="mailto:contato@agropasto.com.br">📧 contato@agropasto.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AGRO-PASTO. Todos os direitos reservados.</p>
+                <p>Desenvolvido com 🌱 para o agronegócio brasileiro</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5587981797838?text=Olá! Gostaria de consultoria agrícola." class="whatsapp-float"
+        target="_blank" aria-label="Falar no WhatsApp">
+        <svg viewBox="0 0 32 32" width="28" height="28" fill="white">
+            <path
+                d="M16 0C7.163 0 0 7.163 0 16c0 2.837.738 5.497 2.031 7.812L.063 32l8.438-2.219C10.689 31.219 13.262 32 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.188 22.875c-.344.969-1.719 1.781-2.781 2.031-.75.156-1.719.281-5-1.063-4.188-1.719-6.875-5.969-7.094-6.25-.219-.281-1.781-2.375-1.781-4.531s1.125-3.219 1.531-3.656c.344-.375.906-.531 1.438-.531.172 0 .328.016.469.031.406.016.609.031.875.688.344.813 1.156 2.844 1.25 3.063.094.219.188.5.063.781-.125.281-.188.453-.375.688-.188.234-.391.516-.563.688-.188.188-.375.406-.172.781.219.375.969 1.594 2.063 2.563 1.438 1.281 2.625 1.688 3.031 1.875.344.156.781.125 1.031-.156.313-.344.688-.938 1.063-1.469.281-.375.625-.438 1-.281.375.156 2.375 1.125 2.781 1.313.406.188.688.281.781.438.094.156.094.906-.25 1.781z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

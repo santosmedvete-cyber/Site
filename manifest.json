@@ -1,0 +1,40 @@
+{
+    "name": "AGRO-PASTO - Consultor Agrícola",
+    "short_name": "AGRO-PASTO",
+    "description": "Consultoria agrícola com Inteligência Artificial para análise de solo, manejo de pastagens e culturas.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f0fdf4",
+    "theme_color": "#16a34a",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "business",
+        "productivity",
+        "utilities"
+    ],
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Falar no WhatsApp",
+            "short_name": "WhatsApp",
+            "description": "Iniciar conversa no WhatsApp",
+            "url": "https://wa.me/5587981797838",
+            "icons": [
+                {
+                    "src": "images/icon-512.png",
+                    "sizes": "512x512"
+                }
+            ]
+        }
+    ]
+}
